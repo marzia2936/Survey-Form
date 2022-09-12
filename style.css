@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,800;1,900&family=Roboto:wght@300;400&display=swap');
+
+*body {
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.main-content {
+    background: linear-gradient(115deg,
+            rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-attachment: fixed;
+}
+
+#title {
+
+    text-align: center;
+    color: white;
+}
+
+.header,
+p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: Merriweather;
+
+}
+
+.main-section {
+    /* border: 4px solid black; */
+    /* margin: 25%; */
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 25px;
+    background-color: #1b1b32;
+    font-family: Roboto;
+}
+
+label {
+    color: white;
+}
+
+.survey-form {
+    color: white;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+    /* text-color: black;*/
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.625rem;
+    background: green;
+    border-radius: 2px;
+    cursor: pointer;
+}
